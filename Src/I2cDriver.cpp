@@ -82,19 +82,3 @@ void I2C::I2cMasterRead(I2cTransfer& arTransfer)
 	//Disable
     I2cDisable();
 }
-
-
-
-// int main()
-// {
-//     I2C *pI2c = I2C::Instance();
-//     pI2c->Init(40);
-
-//     I2cTransfer data;
-//     data.Length = 1;
-//     data.Buffer[0] = 11;
-//     pI2c->I2cMasterWrite(data);
-
-//     return 0;
-
-// }
